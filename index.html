@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>카카오톡 분석</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <div class="login-box">
+    <h2>대화 내용 내보내기로 받은 txt파일을 업로드 해주세요.</h2>
+    <form method="post" enctype="multipart/form-data">
+      <div class = "fileName">
+        <label>adsfas</label>
+      </div>
+      <div class="button">
+        
+        <label for="chooseFile">파일 올리기</label>
+      </div>
+      <input type="file" id="chooseFile" name="chooseFile" accept=".txt" onchange="loadFile(this)">
+      
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        Submit
+      </a>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+
+
+
+</html>
